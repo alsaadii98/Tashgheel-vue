@@ -143,7 +143,7 @@
             <JobCard />
             <JobCard />
           </div>
-          <ShowAllBtn />
+          <router-link to="/jobs"><ShowAllBtn /></router-link>
         </div>
       </div>
     </div>
@@ -160,7 +160,7 @@
         <BlogCard />
         <BlogCard />
       </div>
-      <ShowAllBtn />
+      <router-link to="/blogs"><ShowAllBtn /></router-link>
     </div>
     <!-- max-w-[80rem] m-auto mt-20 -->
 

@@ -18,7 +18,7 @@
       <li
         class="hover:text-violet-500 cursor-pointer hover:transition-all duration-500 outline-none"
       >
-        الوظائف
+        <router-link to="/jobs">الوظائف</router-link>
       </li>
     </ul>
     <div>

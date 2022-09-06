@@ -4,6 +4,8 @@ import About from "@/views/aboutUs.vue";
 import LoginPage from "@/views/loginPage.vue";
 import CreateAcc from "@/views/createAcc.vue";
 import RecentBlog from "@/views/recentBlog.vue";
+import JobsPage from "@/views/jobsPage.vue";
+
 const routes = [
   {
     path: "/",
@@ -29,6 +31,11 @@ const routes = [
     path: "/blogs",
     name: "RecentBlog",
     component: RecentBlog,
+  },
+  {
+    path: "/jobs",
+    name: "JobPage",
+    component: JobsPage,
   },
 ];
 
